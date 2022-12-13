@@ -1,0 +1,74 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 110px;
+  margin: 3rem auto 0;
+}
+
+.gikihub {
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem;
+  font-family: 'Jacques Francois', serif;
+  letter-spacing: 2px;
+}
+
+.buscador {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+}
+
+.input {
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 1.2rem 1rem;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  background-color: #ffffff22;
+  outline: none;
+  color: #ffffff;
+}
+
+.buscar {
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background-color: #ffffff22;
+  outline: none;
+  color: #ffffff;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.buscar:hover {
+  background-color: #ffffff33;
+}
+
+.projeto {
+  width: 100%;
+  padding: 1rem 5%;
+  box-sizing: border-box;
+}
+
+.titulo_projeto {
+  font-size: 2rem;
+}
+
+.filtros {
+  border: 1px solid #afb8bc;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}

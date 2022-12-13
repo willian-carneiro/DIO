@@ -1,0 +1,66 @@
+.usuario {
+  width: 100%;
+  padding: 1rem 5%;
+  box-sizing: border-box;
+}
+
+.titulo_usuario {
+  font-size: 2rem;
+}
+
+.titulo_usuario-central {
+  text-align: center;
+  font-size: 2rem;
+  color: #a9afb1;
+}
+
+.card_usuario {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid #afb8bc;
+  padding: 1.2rem;
+  border-radius: 20px;
+}
+
+.imagem_usuario {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  margin-right: 2rem;
+}
+
+.nome_usuario {
+  margin: 0 15px 5px 0;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+.metadado_usuario {
+  color: rgb(129, 133, 135);
+  font-size: 1.2rem;
+  margin: 0 0 15px;
+}
+
+.dado_usuario {
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .card_usuario {
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+  .imagem_usuario {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 0;
+  }
+  .nome_usuario {
+    margin: 0 10px 5px 0;
+  }
+  .metadado_usuario {
+    font-size: 1rem;
+  }
+}
